@@ -31,8 +31,8 @@ $(function () {
 		};
 	}
 
-	function initializeClock(id, endtime) {
-		const clock = document.querySelector(id);
+	function initializeClock(classWrapper, endtime) {
+		const clock = document.querySelector(classWrapper);
 		const daysSpan = clock.querySelector('.promo__days');
 		const hoursSpan = clock.querySelector('.promo__hours');
 		const minutesSpan = clock.querySelector('.promo__minutes');
