@@ -120,6 +120,9 @@ footer {
 		font-size: 22px;
 		line-height: 1;
 	}
+	&__form {
+		display: flex;
+	}
 	&__link {
 		margin-bottom: 14px;
 		display: block;
